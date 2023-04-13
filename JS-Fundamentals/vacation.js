@@ -37,5 +37,3 @@ price *= groupOfPeople;
 
 console.log(`Total price: ${price.toFixed(2)}`)
 }
-
-solve(30, "Regular", "Saturday")
