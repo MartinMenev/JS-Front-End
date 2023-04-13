@@ -1,2 +1,2 @@
 # JS-Front-End
-Educational tasks and projects from my courses @SoftUni
+JavaScript educational tasks and projects from my courses @SoftUni
