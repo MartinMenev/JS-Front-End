@@ -3,10 +3,11 @@
 
 
 function solve (array, numberOfRotations) {
+    numberOfRotations %= array.length;
     for (let i = 0; i < numberOfRotations; i++) {
         array.push(array.shift());
     }
-    console.log(...array)
+    console.log(array.join(" "))
 
 }
 
