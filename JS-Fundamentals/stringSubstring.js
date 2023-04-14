@@ -8,7 +8,7 @@ function solve (word, text) {
     let isFound = false;
 
     for (let index = 0; index < array.length; index++) {
-        if (array[index].toLowerCase().includes(word.toLowerCase())) {
+        if (array[index].toLowerCase() === (word.toLowerCase())) {
             console.log(word);
             isFound = true;
             break;
