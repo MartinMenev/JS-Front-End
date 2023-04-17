@@ -2,7 +2,7 @@
 // Your task is to create a function that visualizes a loading bar depending on the number you have received in the input.
 
 
-function loadingBar (number) {
+function loadingBar(number) {
     if (isComplete(number)) {
         console.log("100% Complete!");
         console.log(`[${printStatus(number)}]`);
@@ -10,15 +10,15 @@ function loadingBar (number) {
         console.log(`${number}% [${printStatus(number)}]`);
         console.log("Still loading...");
     }
-    
 
-    function isComplete (number) {
+
+    function isComplete(number) {
         return (number === 100);
     }
 
-    function printStatus (number) {
-        let status = "%".repeat(number/10);
-        status += ".".repeat(10 - (number/10));
+    function printStatus(number) {
+        let status = "%".repeat(number / 10);
+        status += ".".repeat(10 - (number / 10));
         return status;
     }
 }
