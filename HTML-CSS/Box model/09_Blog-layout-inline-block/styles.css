@@ -1,0 +1,23 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+   
+}
+
+main {
+    width: 70%;
+    float: left;
+}
+
+img {
+    width: 50%;
+}
+
+aside {
+    width: 25%;
+    vertical-align: top;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+  }
