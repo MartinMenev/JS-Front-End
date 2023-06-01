@@ -1,0 +1,27 @@
+html {
+    margin: 2em;
+}
+
+body {
+    display: flex;
+}
+
+section.gallery ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2em;
+    
+}
+
+section.gallery ul li {
+    border: 1em solid black;
+    align-items: center;
+    padding: 1em;
+    display: flex;
+}
+
+img {
+    align-items: center;
+}
