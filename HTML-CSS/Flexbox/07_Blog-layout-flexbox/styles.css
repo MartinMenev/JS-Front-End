@@ -1,0 +1,40 @@
+html {
+    background-color: rgb(238, 238, 238);
+}
+
+
+header, footer {
+    flex-basis: 100%;
+}
+
+div.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+      ;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+main {
+    flex: 8 1 40rem;
+}
+
+aside {
+    flex: 2 1 20rem;
+}
+
+aside ul li a {
+    display: flex;
+    color: rgb(0, 153, 0);
+}
