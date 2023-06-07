@@ -1,0 +1,30 @@
+body {
+    background: rgb(238,238,238);
+}
+
+
+.card {
+    display: grid;
+    background: rgb(255,255,255);
+    display:block;
+    justify-content: center;
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font: 1em/1.2 Georgia, serif;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+card a.button {
+    background: rgb(0,153,0);
+}
+
+
+
