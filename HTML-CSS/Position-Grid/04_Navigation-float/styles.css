@@ -1,0 +1,22 @@
+body {
+    background: rgb(238,238,238);
+}
+
+a {
+    color: rgb(0,102,0);
+    text-decoration: none;
+}
+
+img {
+    background: rgb(255,255,255);
+    box-shadow: rgba(0,0,0,0.25);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: 1em/1.2 Georgia, serif;
+}
+

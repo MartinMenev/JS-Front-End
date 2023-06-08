@@ -1,0 +1,19 @@
+@import 'https://use.fontawesome.com/releases/v6.4.0/css/all.css';
+
+
+ul li {
+    list-style: none;
+    display: inline;
+
+}
+
+a {
+    border: 0.3rem solid#eee;
+    background: #eee;
+    border-radius: 50%;
+}
+
+a:hover {
+    color: blue;
+    
+}
