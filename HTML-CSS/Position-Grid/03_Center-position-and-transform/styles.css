@@ -1,4 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: rgb(238,238,238);
 }
 
@@ -15,7 +26,12 @@ h1,h2,h3,h4,h5,h6 {
     font: 1em/1.2 Georgia, serif;
 }
 
+card .media {
+    position: relative;
+}
+
 img {
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
